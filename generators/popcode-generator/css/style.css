@@ -1,0 +1,52 @@
+body { background-color: #2f2f2f; }
+
+input {
+	font-size: 16px;
+}
+.title {
+	color:#fbe400;
+}
+#vastTAG {
+	font-size: 10px;
+}
+#wrapper { 
+	width: 100%;
+	background: url(../img/page_bg.jpg) no-repeat center top; 
+	padding-top: 67px;
+	color: #fff;
+	font-family: 'Carrois Gothic', sans-serif;
+}
+#inner { 
+	background: url(../img/inner_bg.png) repeat; 
+	width: 920px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+#notice { 
+	display: none;
+	position: relative;
+	height: 25px;
+	width: 280px;
+	background-color: #fbe400; 
+	color: #000;
+	top: 5; 
+	left: 0;
+	text-align: center;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.highlight {
+	border: 2px solid #000;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
